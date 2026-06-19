@@ -91,6 +91,23 @@
         margin-right: 6px;
     }
 
+    .pub-left > .intro-img {
+        display: block;
+        width: min(100%, 300px);
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: fill;
+        background-color: #fff;
+    }
+
+    @media screen and (max-width: 800px) {
+        .pub-left > .intro-img {
+            width: min(100%, 420px);
+            height: 210px;
+        }
+    }
+
     @media screen and (max-width: 700px) {
         .bio-body > div[style*="width: 50%"] {
             width: 100% !important;
@@ -99,6 +116,10 @@
 
         .news-date {
             display: inline-block;
+        }
+
+        .pub-left > .intro-img {
+            height: 180px;
         }
     }
   </style>
@@ -248,15 +269,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     <li>
       <span class="news-date">2026/02</span>
-      Three papers on Hardware Software Co-Design are accepted by <strong>DAC 2026</strong>!
+      Three papers on Hardware-Software Co-Design are accepted by <strong>DAC 2026</strong>!
     </li>
     <li>
       <span class="news-date">2026/01</span>
-      One paper on Token pruning for VAR models is accepted by <strong>ICLR 2026</strong>!
+      One paper on Token Pruning for VAR Models is accepted by <strong>ICLR 2026</strong>!
     </li>
     <li>
       <span class="news-date">2025/11</span>
-      One paper on Quantization for MoE models is accepted by <strong>DATE 2026</strong>!
+      One paper on Quantization for MoE Models is accepted by <strong>DATE 2026</strong>!
     </li>
   </ul>
 </div>
@@ -438,7 +459,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="wrapper">
   <div id="awards" class="bio">
     <h1 class="md-heading text-left">
-      <i class="fa fa-tasks" aria-hidden="true"></i>
+      <i class="fa fa-trophy" aria-hidden="true"></i>
       Selected Honors & Awards
     </h1>
     <ul>
@@ -454,7 +475,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div id="academicservices" class="bio">
     <div class="bio-body" style="overflow:hidden;">
       <h1 class="md-heading text-left">
-        <i class="fa fa-tasks" aria-hidden="true"></i>
+        <i class="fa fa-users" aria-hidden="true"></i>
         Academic Services
       </h1>
 

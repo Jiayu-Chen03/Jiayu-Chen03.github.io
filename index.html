@@ -77,10 +77,28 @@
         border: 1px solid #cbd5e1;
     }
 
+    .news-list {
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    .news-list li {
+        margin-bottom: 6px;
+    }
+
+    .news-date {
+        font-weight: 600;
+        margin-right: 6px;
+    }
+
     @media screen and (max-width: 700px) {
         .bio-body > div[style*="width: 50%"] {
             width: 100% !important;
             float: none !important;
+        }
+
+        .news-date {
+            display: inline-block;
         }
     }
   </style>
@@ -111,6 +129,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="trigger">
     <a class="page-link" href="#bio"><b>Biography</b></a>
+    <a class="page-link" href="#news"><b>News</b></a>
     <a class="page-link" href="#timeline"><b>Experiences</b></a>
     <a class="page-link" href="#publications"><b>Publications</b></a>
     <a class="page-link" href="#awards"><b>Honors & Awards</b></a>
@@ -211,6 +230,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </ul>
     </div>
   </div>
+</div>
+
+<div id="news" class="bio news">
+  <h1 class="md-heading text-left">
+    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+    News
+  </h1>
+  <ul class="news-list">
+    <li>
+      <span class="news-date">2026/06</span>
+      One paper on Cloud-Edge Collaborative Video Generation is accepted by <strong>ECCV 2026</strong>!
+    </li>
+    <li>
+      <span class="news-date">2026/04</span>
+      One paper on Sparse Attention for Video Generation is accepted by <strong>ICML 2026</strong>!
+    </li>
+    <li>
+      <span class="news-date">2026/02</span>
+      Three papers on Hardware Software Co-Design are accepted by <strong>DAC 2026</strong>!
+    </li>
+    <li>
+      <span class="news-date">2026/01</span>
+      One paper on Token pruning for VAR models is accepted by <strong>ICLR 2026</strong>!
+    </li>
+    <li>
+      <span class="news-date">2025/11</span>
+      One paper on Quantization for MoE models is accepted by <strong>DATE 2026</strong>!
+    </li>
+  </ul>
 </div>
 
 <div id="timeline" class="timeline-brief">

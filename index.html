@@ -101,6 +101,19 @@
         background-color: #fff;
     }
 
+    .pub-full-list {
+        clear: both;
+        text-align: right;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+
+    .pub-full-list > .tag {
+        color: #9b3022;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
     @media screen and (max-width: 800px) {
         .pub-left > .intro-img {
             width: min(100%, 420px);
@@ -265,11 +278,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     <li>
       <span class="news-date">2026/04</span>
-      One paper on Sparse Attention for Video Generation is accepted by <strong>ICML 2026</strong>!
+      One collaborative paper on Sparse Attention for Video Generation is accepted by <strong>ICML 2026</strong>!
     </li>
     <li>
       <span class="news-date">2026/02</span>
-      Three papers on Hardware-Software Co-Design are accepted by <strong>DAC 2026</strong>!
+      One paper and two collaborative papers on Hardware-Software Co-Design are accepted by <strong>DAC 2026</strong>!
     </li>
     <li>
       <span class="news-date">2026/01</span>
@@ -277,7 +290,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     <li>
       <span class="news-date">2025/11</span>
-      One paper on Quantization for MoE Models is accepted by <strong>DATE 2026</strong>!
+      One collaborative paper on Quantization for MoE Models is accepted by <strong>DATE 2026</strong>!
     </li>
   </ul>
 </div>
@@ -344,21 +357,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="pub-list">
     <div class="pub" data-selected="true">
       <div class="pub-left">
-        <img class="intro-img frame pub-placeholder" src="images/ToProVAR.png" alt="Publication image placeholder">
-      </div>
-      <div class="pub-right">
-        <div class="title">ToProVAR: Efficient Visual Autoregressive Modeling via Tri-Dimensional Entropy-Aware Semantic Analysis and Sparsity Optimization</div>
-        <div class="authors"><font style="font-size: 11pt;"><b>Jiayu Chen</b>, Ruoyu Lin, Zihao Zheng, Jingxin Li, Maoliang Li, Guojie Luo, Xiang Chen.</font></div>
-        <div class="publish"><span class="place">ICLR 2026, CCF-A</span></div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2602.22948" target="_blank">Paper</a>]
-          [<a class="tag" href="https://github.com/IF-LAB-PKU/ToProVAR" target="_blank">Code</a>]
-        </div>
-      </div>
-    </div>
-
-    <div class="pub" data-selected="true">
-      <div class="pub-left">
         <img class="intro-img frame pub-placeholder" src="images/pyramid_forcing.png" alt="Publication image placeholder">
       </div>
       <div class="pub-right">
@@ -388,6 +386,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 
+    <div class="pub" data-selected="true">
+      <div class="pub-left">
+        <img class="intro-img frame pub-placeholder" src="images/ToProVAR.png" alt="Publication image placeholder">
+      </div>
+      <div class="pub-right">
+        <div class="title">ToProVAR: Efficient Visual Autoregressive Modeling via Tri-Dimensional Entropy-Aware Semantic Analysis and Sparsity Optimization</div>
+        <div class="authors"><font style="font-size: 11pt;"><b>Jiayu Chen</b>, Ruoyu Lin, Zihao Zheng, Jingxin Li, Maoliang Li, Guojie Luo, Xiang Chen.</font></div>
+        <div class="publish"><span class="place">ICLR 2026, CCF-A</span></div>
+        <div class="tags">
+          [<a class="tag" href="https://arxiv.org/abs/2602.22948" target="_blank">Paper</a>]
+          [<a class="tag" href="https://github.com/IF-LAB-PKU/ToProVAR" target="_blank">Code</a>]
+        </div>
+      </div>
+    </div>
+
     <div class="pub" data-selected="false">
       <div class="pub-left">
         <img class="intro-img frame pub-placeholder" src="images/hero.png" alt="Publication image placeholder">
@@ -403,32 +416,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 
-    <div class="pub" data-selected="false">
-      <div class="pub-left">
-        <img class="intro-img frame pub-placeholder" src="images/agent_xpu.png" alt="Publication image placeholder">
-      </div>
-      <div class="pub-right">
-        <div class="title">Agent.xpu: Efficient Scheduling of Agentic LLM Workloads on Heterogeneous SoC</div>
-        <div class="authors"><font style="font-size: 11pt;">Xinming Wei, Jiahao Zhang, Haoran Li, <b>Jiayu Chen</b>, Haoning Guan, Rui Qu, Maoliang Li, Xiang Chen, Guojie Luo.</font></div>
-        <div class="publish"><span class="place">Arxiv 2025</span></div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2506.24045" target="_blank">Paper</a>]
-        </div>
-      </div>
-    </div>
-
-    <div class="pub" data-selected="false">
-      <div class="pub-left">
-        <img class="intro-img frame pub-placeholder" src="images/thresholdnet.png" alt="Publication image placeholder">
-      </div>
-      <div class="pub-right">
-        <div class="title">Threshold Neuron: A Brain-inspired Artificial Neuron for Efficient On-device Inference</div>
-        <div class="authors"><font style="font-size: 11pt;">Zihao Zheng, Yuanchun Li, <b>Jiayu Chen</b>, Peng Zhou, Xiang Chen, Yunxin Liu.</font></div>
-        <div class="publish"><span class="place">Arxiv 2025</span></div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/pdf/2412.13902" target="_blank">Paper</a>]
-        </div>
-      </div>
+    <div class="pub-full-list">
+      [<a class="tag" href="https://scholar.google.com/citations?user=NHmuxRYAAAAJ&hl=en" target="_blank">Full List</a>]
     </div>
   </div>
 </div>
